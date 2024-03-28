@@ -1,0 +1,380 @@
+img {
+    position: absolute;
+    top: 20px;
+    left: 390px;
+    filter: brightness(30%);
+    box-shadow: 5px 10px 5px rgb(134, 132, 132);
+    height: 600px;
+    width: 500px;
+}
+
+.input1 {
+    width: 390px;
+    position: absolute;
+    left: 445px;
+    top: 240px;
+    border-radius: 5px;
+    background-color: rgb(248, 202, 132);
+    border: none;
+    height: 35px;
+    opacity: 0.3;
+    color: white;
+}
+
+.input2 {
+    width: 390px;
+    position: absolute;
+    left: 445px;
+    top: 340px;
+    border-radius: 5px;
+    background-color: rgb(248, 202, 132);
+    border: none;
+    height: 35px;
+    opacity: 0.3;
+    color: white;
+}
+
+.input1:focus {
+    width: 390px;
+    position: absolute;
+    left: 445px;
+    top: 240px;
+    border-radius: 5px;
+    background-color: rgb(233, 213, 182);
+    border: none;
+    height: 35px;
+    opacity: 100%;
+    color: rgb(240, 149, 13);
+}
+
+.input2:focus {
+    width: 390px;
+    position: absolute;
+    left: 445px;
+    top: 340px;
+    border-radius: 5px;
+    background-color: rgb(233, 213, 182);
+    border: none;
+    height: 35px;
+    opacity: 100%;
+    color: rgb(240, 149, 13);
+}
+
+.paragraphe {
+    font-size: 22px;
+    position: absolute;
+    left: 445px;
+    top: 100px;
+    color: white;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-decoration: none;
+}
+
+.paragraphe:hover {
+    color: white;
+}
+
+.paragraphe1 {
+    font-size: 22px;
+    position: absolute;
+    left: 590px;
+    top: 100px;
+    color: white;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-decoration: none;
+    filter: brightness(50%);
+}
+
+.paragraphe1:hover {
+    color: white;
+    filter: brightness(80%);
+    border-bottom: 1px solid white;
+    transition: 1s;
+}
+
+.errormsg {
+    font-size: 20px;
+    position: absolute;
+    left: 450px;
+    top: 150px;
+    color: red;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.home {
+    font-size: 22px;
+    position: absolute;
+    left: 750px;
+    top: 100px;
+    color: white;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-decoration: none;
+    filter: brightness(50%);
+}
+
+.home:hover {
+    font-size: 22px;
+    position: absolute;
+    left: 750px;
+    top: 100px;
+    color: white;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-decoration: none;
+    filter: brightness(80%);
+    border-bottom: 1px solid white;
+    transition: 1s;
+}
+
+.label1 {
+    position: absolute;
+    top: 210px;
+    left: 445px;
+    color: rgb(151, 106, 38);
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 15px;
+}
+
+.label2 {
+    position: absolute;
+    top: 310px;
+    left: 445px;
+    color: rgb(151, 106, 38);
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 15px;
+}
+
+.connexion {
+    position: absolute;
+    width: 390px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    left: 445px;
+    top: 450px;
+    background-color: rgb(187, 128, 40);
+
+}
+
+.connexion:hover {
+    position: absolute;
+    width: 390px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    left: 445px;
+    top: 450px;
+    background-color: rgb(228, 144, 18);
+
+}
+
+.lien {
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    left: 580px;
+    top: 560px;
+    filter: brightness(50%);
+
+}
+
+.lien:hover {
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    left: 580px;
+    top: 560px;
+    filter: brightness(70%);
+
+}
+
+hr {
+    position: absolute;
+    height: 5px;
+    width: 400px;
+    left: 440px;
+    top: 520px;
+    color: rgb(228, 163, 66);
+}
+
+
+
+
+/** inscription **/
+
+#inscription {
+    display: none;
+}
+
+.label11 {
+    position: absolute;
+    top: 180px;
+    left: 445px;
+    color: rgb(151, 106, 38);
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 15px;
+}
+
+.label22 {
+    position: absolute;
+    top: 360px;
+    left: 445px;
+    color: rgb(151, 106, 38);
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 15px;
+}
+
+.label33 {
+    position: absolute;
+    top: 270px;
+    left: 445px;
+    color: rgb(151, 106, 38);
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 15px;
+}
+
+.input11 {
+    width: 390px;
+    position: absolute;
+    left: 445px;
+    top: 210px;
+    border-radius: 5px;
+    background-color: rgb(248, 202, 132);
+    border: none;
+    height: 35px;
+    opacity: 0.3;
+    color: white;
+}
+
+.input22 {
+    width: 390px;
+    position: absolute;
+    left: 445px;
+    top: 390px;
+    border-radius: 5px;
+    background-color: rgb(248, 202, 132);
+    border: none;
+    height: 35px;
+    opacity: 0.3;
+    color: white;
+}
+
+.input33 {
+    width: 390px;
+    position: absolute;
+    left: 445px;
+    top: 300px;
+    border-radius: 5px;
+    background-color: rgb(248, 202, 132);
+    border: none;
+    height: 35px;
+    opacity: 0.3;
+    color: white;
+}
+
+.input11:focus {
+    width: 390px;
+    position: absolute;
+    border-radius: 5px;
+    background-color: rgb(233, 213, 182);
+    border: none;
+    height: 35px;
+    opacity: 100%;
+    color: rgb(240, 149, 13);
+}
+
+.input22:focus {
+    width: 390px;
+    position: absolute;
+    border-radius: 5px;
+    background-color: rgb(233, 213, 182);
+    border: none;
+    height: 35px;
+    opacity: 100%;
+    color: rgb(240, 149, 13);
+}
+
+.input33:focus {
+    width: 390px;
+    position: absolute;
+    border-radius: 5px;
+    background-color: rgb(233, 213, 182);
+    border: none;
+    height: 35px;
+    opacity: 100%;
+    color: rgb(240, 149, 13);
+}
+
+.paragraphe00 {
+    font-size: 22px;
+    position: absolute;
+    left: 445px;
+    top: 100px;
+    color: white;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-decoration: none;
+    filter: brightness(50%);
+}
+
+.paragraphe11 {
+    font-size: 22px;
+    position: absolute;
+    left: 590px;
+    top: 100px;
+    color: white;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-decoration: none;
+}
+
+.paragraphe00:hover {
+    color: white;
+    filter: brightness(80%);
+    border-bottom: 1px solid white;
+    transition: 1s;
+}
+
+.paragraphe11:hover {
+    color: white;
+}
+
+.inscription {
+    position: absolute;
+    width: 390px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    left: 445px;
+    top: 470px;
+    background-color: rgb(187, 128, 40);
+
+}
+
+.inscription:hover {
+    position: absolute;
+    width: 390px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    left: 445px;
+    top: 470px;
+    background-color: rgb(228, 144, 18);
+
+}
+
+.circle {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #3498db;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #fff;
+    font-family: 'Pacifico', cursive;
+    /* Appliquer la police Pacifico */
+    font-weight: bold;
+}
+
+.initial {
+    text-transform: uppercase;
+}

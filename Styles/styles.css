@@ -1,0 +1,51 @@
+body{
+    color: white;
+    transition: 2s;
+}
+
+.dark-mode {
+    background-color: #222;
+    color: #fff;
+    transition: 2s;
+}
+
+#toggleMode{
+    background-color: inherit;
+    color: #fff;
+    margin-left: 600px;
+}
+
+.content{
+    display: none;
+}
+
+.seeMore{
+    display: none;
+    border: 1px solid inherit;
+    border-radius: 10px;
+    text-align: center;
+    background-color: inherit;
+    margin-top: -80px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.circle {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #3498db;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #fff;
+    font-family: 'Pacifico', cursive;
+    /* Appliquer la police Pacifico */
+    font-weight: bold;
+}
+
+.initial {
+    text-transform: uppercase;
+}
+

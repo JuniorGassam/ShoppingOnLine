@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../../JQuery/login.script.js"></script>
+    <link rel="stylesheet" href="../../Styles/LoginStyle.css">
+    <title>Login</title>
+    <style>
+        /* body {
+            background-image: url("../../Assets/Images/istockphoto-1447125456-612x612.jpg");
+            background-size: cover;
+            background-color: rgba(63, 62, 62, 0.9);
+        } */
+
+        body {
+            margin: 0;
+            padding: 0;
+            position: relative;
+            /* Pour permettre le positionnement de l'élément ::before */
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("../../Assets/Images/istockphoto-1447125456-612x612.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            opacity: 0.6;
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="connexion">
+
+        <img src="../../Assets/Images/istockphoto-1447125456-612x612.jpg" alt="Image introuvable...">
+        <a class="paragraphe">Connexion</a>
+        <a class="paragraphe1">Inscription</a>
+        <a href="../../index.html" class="home">Accueil</a>
+
+        <label for="nom" class="label1" required>Nom</label><br>
+        <input type="text" placeholder="User name" id="nom" class="input1" name="nom" required><br>
+        <label for="password" class="label2">Mot de passe</label><br>
+        <input type="password" placeholder="Password" id="password" class="input2" name="password" required>
+        <button type="submit" name="connexion" class="connexion">Connexion</button><br><br>
+        <hr>
+        <a href="#" class="lien">Mot de passe oublier ?</a>
+
+    </form>
+
+    <form id="inscription">
+
+        <img src="../../Assets/Images/istockphoto-1447125456-612x612.jpg" alt="Image introuvable...">
+        <a class="paragraphe00" href="login.html">Connexion</a>
+        <a class="paragraphe11">Inscription</a>
+        <a href="../../index.html" class="home">Accueil</a>
+
+        <label for="nom" class="label11" required>Nom</label><br>
+        <input type="text" placeholder="User name" id="username" class="input11" name="name" required><br>
+        <label for="email" class="label33" required>Email</label><br>
+        <input type="email" placeholder="Email" id="email" class="input33" name="email"><br>
+        <label for="password" class="label22">Mot de passe</label><br>
+        <input type="password" placeholder="Password" id="passwordInscription" class="input22" name="password" required>
+        <button type="submit" name="inscription" class="inscription">Inscription</button><br><br>
+        <hr>
+        <a href="#" class="lien">Mot de passe oublier ?</a>
+
+    </form>
+</body>
+
+</html>
